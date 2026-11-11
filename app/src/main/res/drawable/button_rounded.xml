@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+    <!-- 圆角，数值越大角越圆 -->
+    <corners android:radius="30dp" />
+    <!-- 按钮填充色 -->
+    <solid android:color="@color/brand_purple" />
+    <!-- 内边距，让文字不紧贴边缘 -->
+    <padding
+        android:left="16dp"
+        android:top="12dp"
+        android:right="16dp"
+        android:bottom="12dp" />
+</shape>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">心聆</string>
+
+    <string name="start_recording">开始录音</string>
+    <string name="stop_recording">停止并分析</string>
+    <string name="recording_hint">正在录音…请说一句话（建议 2~5 秒，最长 60 秒）</string>
+    <string name="recognizing">正在识别并分析…</string>
+    <string name="result_placeholder">结果会显示在这里</string>
+
+    <string name="permission_denied">需要录音权限才能使用</string>
+    <string name="error_audio_params">录音参数不支持（采样率 / 声道 / 格式）</string>
+    <string name="error_record_init">初始化录音失败：%1$s</string>
+    <string name="error_record_init_unknown">初始化录音失败：设备不支持</string>
+    <string name="error_no_audio">没有录到音频，请重试</string>
+    <string name="error_missing_keys">尚未配置百度智能云密钥。请在 local.properties 中填写后重新构建，详见 README。</string>
+    <string name="error_generic">出错了：%1$s</string>
+    <string name="empty_recognition">没有识别到文字，请靠近麦克风再试一次</string>
+
+    <string name="result_text_only">识别文字：\n%1$s\n\n（未能完成情感分析）</string>
+    <string name="result_template">识别文字：\n%1$s\n\n情绪结果：\n倾向：%2$s\n置信度：%3$.2f\n积极概率：%4$.2f\n消极概率：%5$.2f</string>
+
+    <string name="sentiment_negative">消极</string>
+    <string name="sentiment_neutral">中性</string>
+    <string name="sentiment_positive">积极</string>
+    <string name="sentiment_unknown">未知</string>
+</resources>

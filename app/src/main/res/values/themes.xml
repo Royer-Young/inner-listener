@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.XinLing" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/brand_purple</item>
+        <item name="colorPrimaryDark">@color/brand_purple</item>
+        <item name="colorAccent">@color/brand_purple</item>
+        <item name="android:statusBarColor">@color/brand_purple</item>
+    </style>
+</resources>

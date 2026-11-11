@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="brand_purple">#FF6200EE</color>
+    <color name="result_text">#FF333333</color>
+    <color name="progress_track">#FFFFCDD2</color>
+    <color name="emotion_negative">#FFF44336</color>
+    <color name="emotion_neutral">#FFFF9800</color>
+    <color name="emotion_positive">#FF4CAF50</color>
+    <color name="white">#FFFFFFFF</color>
+</resources>

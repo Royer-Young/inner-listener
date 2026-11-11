@@ -1,0 +1,14 @@
+# 复制本文件为 local.properties，然后按实际情况填写。
+# local.properties 已被 .gitignore 忽略，不会提交到 GitHub。
+
+# Android SDK 路径（Windows 注意使用双反斜杠或正斜杠）
+# 也可以不写，改为设置环境变量 ANDROID_HOME / ANDROID_SDK_ROOT
+sdk.dir=C\:\\Users\\your_name\\AppData\\Local\\Android\\Sdk
+
+# 百度智能云 —— 短语音识别（标准版）应用
+BAIDU_SPEECH_API_KEY=
+BAIDU_SPEECH_SECRET_KEY=
+
+# 百度智能云 —— 情感倾向分析应用
+BAIDU_NLP_API_KEY=
+BAIDU_NLP_SECRET_KEY=
