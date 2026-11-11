@@ -1,8 +1,8 @@
-# 心聆 · XinLing
+# InnerListener · 心聆
 
-> 语音情感实时分析助手 —— 说一句话，听出情绪。
+> 聆听内心的声音 —— 说一句话，看见情绪的颜色。
 
-**心聆** 是一款 Android 语音情感分析应用。它把你说的一句话录下来，先通过百度短语音识别转成文字，再通过百度情感倾向分析判断情绪，最后用一条从红到绿的进度条直观展示情绪的积极程度。
+**InnerListener（心聆）** 是一款 Android 语音情感分析应用。它把你说的一句话录下来，先通过百度短语音识别转成文字，再通过百度情感倾向分析判断情绪，最后用一条从红到绿的进度条直观展示情绪的积极程度。
 
 <p align="center">
   <img alt="Android" src="https://img.shields.io/badge/Android-7.0%2B-3DDC84?logo=android&logoColor=white">

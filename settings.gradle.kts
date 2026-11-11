@@ -21,5 +21,5 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "XinLing"
+rootProject.name = "InnerListener"
 include(":app")

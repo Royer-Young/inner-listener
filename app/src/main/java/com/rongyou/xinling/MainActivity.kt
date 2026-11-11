@@ -39,7 +39,7 @@ import java.io.ByteArrayOutputStream
 import java.util.concurrent.TimeUnit
 
 /**
- * 心聆 —— 语音情感实时分析助手。
+ * InnerListener（心聆）—— 语音情感实时分析助手。
  *
  * 流程：录音（PCM 16 kHz / 单声道 / 16 bit）
  *   -> 百度短语音识别（语音转文字）
