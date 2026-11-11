@@ -1,4 +1,4 @@
-package com.rongyou.xinling
+package com.innerlistener.app
 
 import org.junit.Assert.assertEquals
 import org.junit.Test

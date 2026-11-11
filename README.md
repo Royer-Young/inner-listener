@@ -77,7 +77,7 @@ flowchart LR
 SoftInnoCode/
 ├── app/
 │   ├── src/main/
-│   │   ├── java/com/rongyou/xinling/MainActivity.kt   # 录音、识别、情感分析与动画
+│   │   ├── java/com/innerlistener/app/MainActivity.kt   # 录音、识别、情感分析与动画
 │   │   ├── res/layout/activity_main.xml               # 主界面
 │   │   ├── res/drawable/                              # 按钮与进度条样式
 │   │   └── AndroidManifest.xml
@@ -148,7 +148,7 @@ BAIDU_NLP_SECRET_KEY=你的情感分析_Secret_Key
 ```bat
 gradlew.bat assembleDebug
 adb install -r app\build\outputs\apk\debug\app-debug.apk
-adb shell am start -n com.rongyou.xinling/.MainActivity
+adb shell am start -n com.innerlistener.app/.MainActivity
 ```
 
 **macOS / Linux：**
@@ -156,7 +156,7 @@ adb shell am start -n com.rongyou.xinling/.MainActivity
 ```bash
 ./gradlew assembleDebug
 adb install -r app/build/outputs/apk/debug/app-debug.apk
-adb shell am start -n com.rongyou.xinling/.MainActivity
+adb shell am start -n com.innerlistener.app/.MainActivity
 ```
 
 命令行环境需要提前准备：
@@ -174,7 +174,7 @@ adb shell am start -n com.rongyou.xinling/.MainActivity
 ./gradlew lintDebug         # 静态检查
 ```
 
-> 如果你只是评审代码，也可以直接阅读 `app/src/main/java/com/rongyou/xinling/MainActivity.kt`，无需构建。
+> 如果你只是评审代码，也可以直接阅读 `app/src/main/java/com/innerlistener/app/MainActivity.kt`，无需构建。
 
 ## 隐私与安全
 
@@ -191,7 +191,7 @@ adb shell am start -n com.rongyou.xinling/.MainActivity
 | Gradle Sync 很慢或失败 | 检查网络；`settings.gradle.kts` 已配置阿里云镜像。若下载 Gradle 本体较慢，可把 `gradle/wrapper/gradle-wrapper.properties` 的 `distributionUrl` 换成腾讯镜像 `https://mirrors.cloud.tencent.com/gradle/gradle-9.3.0-bin.zip` |
 | 识别返回 `err_no` | 查看百度控制台对应应用是否开通、配额是否用完、Key 是否匹配 |
 | 模拟器录不到声音 | 模拟器设置中开启 Host audio input（麦克风） |
-| 安装时提示应用未安装 | 确认设备 API ≥ 24，并先卸载旧包 `adb uninstall com.rongyou.xinling` |
+| 安装时提示应用未安装 | 确认设备 API ≥ 24，并先卸载旧包 `adb uninstall com.innerlistener.app` |
 
 ## Roadmap
 
@@ -205,4 +205,4 @@ adb shell am start -n com.rongyou.xinling/.MainActivity
 
 本项目基于 [MIT License](LICENSE) 开源。
 
-Copyright © 2026 杨荣友 (Yang Rongyou)
+Copyright © 2026 InnerListener Contributors

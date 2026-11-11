@@ -18,14 +18,14 @@ val localProperties = Properties().apply {
 fun localProperty(key: String): String = localProperties.getProperty(key).orEmpty()
 
 android {
-    namespace = "com.rongyou.xinling"
+    namespace = "com.innerlistener.app"
 
     compileSdk {
         version = release(36)
     }
 
     defaultConfig {
-        applicationId = "com.rongyou.xinling"
+        applicationId = "com.innerlistener.app"
         minSdk = 24
         targetSdk = 36
         versionCode = 1
