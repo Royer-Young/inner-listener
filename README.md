@@ -5,6 +5,7 @@
 **InnerListener（心聆）** 是一款 Android 语音情感分析应用。它把你说的一句话录下来，先通过百度短语音识别转成文字，再通过百度情感倾向分析判断情绪，最后用一条从红到绿的进度条直观展示情绪的积极程度。
 
 <p align="center">
+  <a href="https://github.com/Royer-Young/inner-listener/actions/workflows/android.yml"><img alt="Android CI" src="https://github.com/Royer-Young/inner-listener/actions/workflows/android.yml/badge.svg"></a>
   <img alt="Android" src="https://img.shields.io/badge/Android-7.0%2B-3DDC84?logo=android&logoColor=white">
   <img alt="Kotlin" src="https://img.shields.io/badge/Kotlin-2.2-7F52FF?logo=kotlin&logoColor=white">
   <img alt="License" src="https://img.shields.io/badge/License-MIT-blue">
