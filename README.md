@@ -187,7 +187,7 @@ adb shell am start -n com.rongyou.xinling/.MainActivity
 | 问题 | 排查方向 |
 | --- | --- |
 | 提示「尚未配置百度智能云密钥」 | 检查 `local.properties` 中四个字段是否填写，改完后重新 Sync / 构建 |
-| Gradle Sync 很慢或失败 | 检查网络；`settings.gradle.kts` 已配置阿里云镜像，也可自行调整仓库顺序 |
+| Gradle Sync 很慢或失败 | 检查网络；`settings.gradle.kts` 已配置阿里云镜像。若下载 Gradle 本体较慢，可把 `gradle/wrapper/gradle-wrapper.properties` 的 `distributionUrl` 换成腾讯镜像 `https://mirrors.cloud.tencent.com/gradle/gradle-9.3.0-bin.zip` |
 | 识别返回 `err_no` | 查看百度控制台对应应用是否开通、配额是否用完、Key 是否匹配 |
 | 模拟器录不到声音 | 模拟器设置中开启 Host audio input（麦克风） |
 | 安装时提示应用未安装 | 确认设备 API ≥ 24，并先卸载旧包 `adb uninstall com.rongyou.xinling` |
